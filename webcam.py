@@ -66,11 +66,11 @@ def main():
 
 
         if prediction =='rock':
-            a = 'paper.jpg'
+            a = 'status/paper.jpg'
         elif prediction =='scissors':
-            a = 'rock.jpg'
+            a = 'status/rock.jpg'
         elif prediction == 'paper':
-            a = 'scissors.jpg'
+            a = 'status/scissors.jpg'
         else:
             a = 'no.jpg'
         ans = cv2.imread(a)
